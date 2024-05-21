@@ -24,12 +24,10 @@ export const UserList = (props: UserListPropsType) => {
                     <li
                         key={user.id}
                         id={`hw01-user-${user.id}`}>
-
-                        <strong>{user.name}</strong>
-                        (Age: {user.age})
-                        <strong> Address:</strong>
-                        {user.address.street},
-                        {user.address.city}
+                        {/*<strong>{user.name}</strong>*/}
+                        {/*(Age: {user.age})*/}
+                        {/*<strong> Address: </strong>*/}
+                        {user.address.street}, {user.address.city}
                     </li>
                 ))}
             </ul>
