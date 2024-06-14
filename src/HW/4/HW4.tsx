@@ -42,7 +42,7 @@ export const HW4 = () => {
                     return (
                         <li key={index}
                             id={`hw04-task-${index}`}
-                            className={index % 2 !== 0 ? S.chetNechet : ''}>
+                            className={index % 2 === 0 ? '' : S.chetNechet}>
                             {el}
                         </li>
                     );
